@@ -305,6 +305,14 @@ button .icon svg {
     max-width: 512px;
   }
 
+  .score .scorePost {
+    font-size: 1.25rem;
+  }
+
+  .score .scoreCorrect {
+    font-size: 8rem;
+  }
+
   .score .scoreNumbers {
     margin-top: -2.5rem;
     margin-bottom: -2rem;

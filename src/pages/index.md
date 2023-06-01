@@ -157,5 +157,17 @@ Wer gerne ein Deepfake-Video mit Annalena Baerbock sehen möchte: Die Kollegen v
 
 <iframe class="embed-yt-16-9" src="https://www.youtube.com/embed/36_wXnCus7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<QuizScore
+images={{
+    0: "result_bad.png",
+    5: "result_ok.png",
+    7: "result_good.png",
+}}
+texts={{
+    0: "Es ist wirklich schwierig. Aber Sie haben sich noch von zu vielen Deepfakes täuschen lassen. Einfach ein bisschen üben, kritischer rangehen – und auf das Bauchgefühl hören!",
+    5: "Das war schon sehr gut: Die meisten Fakes erkannt – aber auf einige dann doch noch hereingefallen. Einfach noch mehr üben, kritischer rangehen – und auf das Bauchgefühl hören!",
+    7: "Das ist ein sehr gutes Ergebnis: Die meisten oder alle Deepfakes erkannt. Gratuliere, Sie lassen sich nicht so leicht an der Nase herumführen. Aber jetzt bitte nicht auf den Lorbeeren ausruhen.",
+}}
+/>
 
 <Sharing twitter facebook mail whatsapp telegram reddit xing linkedin />
