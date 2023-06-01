@@ -106,7 +106,7 @@ Nein, hat er natürlich nicht. Es gibt Dutzende von Apps, die prominente Stimmen
 Die Tagesschau informiert täglich Millionen Menschen verlässlich mit aktuellen Nachrichten, Berichten und Reportagen aus aller Welt. Das wird auch in Zukunft tun. Doch was, wenn KI zum Einsatz kommt – oder käme?
 
 <Quiz>
-<QuizVideo src="Tagesschau_Avatar.mp4" />
+<QuizVideo src="TS-100-Sekunden.mp4" />
 <Question>**Ist das Video echt oder fake?**</Question>
 <Answer correct>Echt</Answer>
 <Answer>Fake</Answer>
@@ -118,7 +118,7 @@ Diese Ausgabe der „Tagesschau in 100 Sekunden“ ist ein Original, moderiert v
 Aber was, wenn man den Präsentator künstlich erzeugen würde? Das könnte dann zum Beispiel so aussehen...
 
 <Quiz>
-<QuizVideo src="TS-Fake.mp4" />
+<QuizVideo src="Tagesschau_Avatar.mp4" />
 <Question>**Ist das Video echt oder fake?**</Question>
 <Answer>Echt</Answer>
 <Answer correct>Fake</Answer>
