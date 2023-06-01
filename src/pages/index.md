@@ -123,7 +123,7 @@ Aber was, wenn man den Präsentator künstlich erzeugen würde? Das könnte dann
 <Answer>Echt</Answer>
 <Answer correct>Fake</Answer>
 <Result>
-Hier ist der Präsentator unübersehbar ein Avatar, der künstlich erzeugt wurde. Mit einem Text, der von einem Menschen gesprochen wurde. Der Avater bewegt sich – trotz seiner comichaften Erscheinung – einigermaßen natürlich und vor allem spricht er lippensynchron. So etwas ist heute kein Problem mehr. Hier hat die KI-Software „Synthesia“ ausgeholfen: Stimme echt, Avatar künstlich – und der Background mit den Infotafeln ebenfalls.
+Hier ist der Präsentator unübersehbar ein Avatar, der künstlich erzeugt wurde. Mit einem Text, der von einem Menschen gesprochen wurde. Der Avatar bewegt sich – trotz seiner comichaften Erscheinung – einigermaßen natürlich und vor allem spricht er lippensynchron. So etwas ist heute kein Problem mehr. Hier hat die KI-Software „Synthesia“ ausgeholfen: Stimme echt, Avatar künstlich – und der Background mit den Infotafeln ebenfalls.
 </Result>
 </Quiz>
 
