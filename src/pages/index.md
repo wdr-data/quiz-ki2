@@ -127,6 +127,20 @@ Hier ist der Präsentator unübersehbar ein Avatar, der künstlich erzeugt wurde
 </Result>
 </Quiz>
 
+
+Die echte Tagesschau setzt noch keine Avatare ein. Aber nicht alle Präsentatoren und Moderatoren sind schon bekannt. So wie Sebastian Keyzer, der wegen seiner sonoren Stimme auch häufig zum Sprechen von Filmtexten gebucht wird.
+
+<Quiz>
+<QuizVideo src="TS-Fake.mp4" />
+<Question>**Ist das Video echt oder fake?**</Question>
+<Answer>Echt</Answer>
+<Answer correct>Fake</Answer>
+<Result>
+Auch das ist ein Fake. Wir haben den originalen Ton aus der „Tagesschau in 100 Sekunden“ genommen. Der Ton ist also echt. Doch der Avatar, eine aus einer großen Zahl von Präsentatoren in Synthesia, ist komplett virtuell – und bewegt sich und spricht so, wie der Text es vorgibt.
+</Result>
+</Quiz>
+
+
 Für alle, die sich beklagen wollen, dass wir bislang nur Männer präsentiert haben: Hier nun einmal „Tagesschau“ mit Evelyn Hörster aus Dortmund. Man hört die Herkunft noch ein bisschen raus. Wie gefällt Ihnen diese Präsentatorin der Tagesschau?
 
 <Quiz>
