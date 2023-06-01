@@ -26,7 +26,7 @@ import { Quiz, Image as QuizImage, Video as QuizVideo, Audio as QuizAudio, Quest
 
 ## Mit diesem Quiz können Sie überprüfen, ob und wie gut Sie mit KI erzeugte Audios und Videos erkennen.
 
-Es hat sich mittlerweile herumgesprochen: Künstliche Intelligenz (KI) ist nicht nur sehr gut daran, große Datenmengen zu analysieren oder Gesichter zu erkennen, sondern kann auch selbst Inhalte generieren. Der bekannte Chatbot ChatGPT zum Beispiel erstellt mühelos gut lesbare Texte. Bildgenerierende KI-Systeme wie Midjourney oder Stable Diffusion erzeugen verblüffend realistisch aussehende Fotos (siehe unser Quizz dazu).
+Es hat sich mittlerweile herumgesprochen: Künstliche Intelligenz (KI) ist nicht nur sehr gut daran, große Datenmengen zu analysieren oder Gesichter zu erkennen, sondern kann auch selbst Inhalte generieren. Der bekannte Chatbot ChatGPT zum Beispiel erstellt mühelos gut lesbare Texte. Bildgenerierende KI-Systeme wie Midjourney oder Stable Diffusion erzeugen verblüffend realistisch aussehende Fotos (siehe unser Quiz dazu).
 
 Die nächste Stufe sind Audios und Videos: Auch die lassen sich heute mit Hilfe von KI mit verhältnismäßig geringem Aufwand komplett künstlich erzeugen.
 
