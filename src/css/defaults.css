@@ -7,3 +7,18 @@ body {
   outline-color: red;
   outline-width: 3px;
 }
+
+@media  (min-width: 600px) {
+  .embed-yt-16-9 {
+    width: 568px;
+    height: 320px;
+  }
+}
+
+
+@media  (min-width: 800px) {
+  .embed-yt-16-9 {
+    width: 768px;
+    height: 432px;
+  }
+}

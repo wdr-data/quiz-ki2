@@ -1,269 +1,161 @@
 ---
-title: "Opern-Spielpläne in NRW: tot und männlich"
-description: WDR 3 Datenanalyse der Opern-Spielzeit 2018/2019
-author: Niklas Rudolph, Patricia Ennenbach
-pub_date: "2019-07-15"
-heroImage: "richard-wagner-und-freunde.jpg"
-heroAlt: "Richard Wagner und seine Freunde"
-heroCredit: "Richard Wagner und seine Freunde"
-sharingImageFacebook: "richard-wagner-und-freunde_facebook.jpg"
-sharingImageTwitter: "richard-wagner-und-freunde_twitter.jpg"
+title: "Quiz: Wie gut erkennen Sie Deep Fakes?"
+description: Mit diesem Quiz können Sie überprüfen, ob und wie gut Sie mit KI erzeugte Audios und Videos erkennen.
+author: Jörg Schieb
+pub_date: "2023-06-02"
+heroImage: ""
+heroAlt: ""
+heroCredit: ""
+sharingImageFacebook: ""
+sharingImageTwitter: ""
 cg1: "WDR"
 cg2: "Data"
-cg3: "WDR 3"
-cg4: "Opern-Spielpläne in NRW: tot und männlich"
+cg3: "Newsroom"
+cg4: "Deepfake Quiz 2"
 
 pageType: "Quiz"
 editorialDepartment: "Newsroom"
 ---
 
-import DataWrapper from '../components/datawrapper/datawrapper.jsx'
-import Quote from '../components/quote/quote.jsx'
-import Webtrekk from '../components/webtrekk/webtrekk.jsx'
 import Sharing from '../components/sharing/sharing.jsx'
-import SemioticBarChart from '../components/semiotic_barChart/semiotic_barChart.jsx'
 import WdrPlayer from '../components/video/video.jsx'
-import YDIBar from '../components/ydi/ydiBar.jsx'
-import YDILine from '../components/ydi/ydiLine.jsx'
-import TabbedView from '../components/data-tabs/TabbedView.jsx'
 import { Link, LinkList } from '../components/link/link.jsx'
 import { Quiz, Image as QuizImage, Video as QuizVideo, Audio as QuizAudio, Question, Answer, Result, Score as QuizScore } from '../components/quiz/quiz.jsx'
 
-# Opern-Spielpläne in NRW: tot und männlich
+# Wie gut erkennen Sie Deep Fakes?
 
-## Wir haben die Opern-Spielpläne in NRW unter die Lupe genommen. Das Ergebnis: NRW ist ein Opern-Paradies. Aber lebende Komponisten haben kaum eine Chance, auf die Spielpläne zu kommen. Und Komponistinnen gar keine.
+## Mit diesem Quiz können Sie überprüfen, ob und wie gut Sie mit KI erzeugte Audios und Videos erkennen.
 
-Waren Sie in der letzten Spielzeit in der Oper? Dann haben Sie höchstwahrscheinlich Papageno, die Knusperhexe oder Leporello auf der Bühne erlebt. Denn diese Opern und Operetten standen am häufigsten auf dem Spielplan:
+Es hat sich mittlerweile herumgesprochen: Künstliche Intelligenz (KI) ist nicht nur sehr gut daran, große Datenmengen zu analysieren oder Gesichter zu erkennen, sondern kann auch selbst Inhalte generieren. Der bekannte Chatbot ChatGPT zum Beispiel erstellt mühelos gut lesbare Texte. Bildgenerierende KI-Systeme wie Midjourney oder Stabel Diffusion erzeugen verblüffend realistisch aussehende Fotos (siehe unser Quizz dazu).
 
-## Quiz Beispiel
+Die nächste Stufe sind Audios und Videos: Auch die lassen sich heute mit Hilfe von KI mit verhältnismäßig geringem Aufwand komplett künstlich erzeugen.
+
+### Auch Fake von Stimmen und Videos möglich
+
+Was vor einigen Monaten noch nur im Labor möglich war, steht heute jedem offen: KI-Systeme, die mit synthetischer Stimme sprechen, die völlig echt klingen. Aber auch KI-Systeme, die praktisch jede Stimme nahezu perfekt nachahmen können. Es reichen einige wenige Minuten Audiomaterial – etwa eine Rede! –, schon lässt sich mit KI ein Audioschnipsel bauen, in dem alles gesagt werden kann. Ein Audio Deep Fake.
+
+Mit Videos ist es etwas aufwändiger und die Ergebnisse können noch nicht ganz so überzeugen – aber auch hier werden enorme Fortschritte gemacht.
+
+Wir haben in diesem Quiz Aufnahmen im Angebot: Audios und Videos. Echte und unechte. Die Aufgabe ist es zu entscheiden: Sie die Aufnahmen nun echt oder unecht? Auf diese Weise lässt sich gut erkennen und lernen, was heute schon möglich ist – und worauf man achten muss, um Deep Fakes zu enttarnen.
+
+Viel Spaß beim Quiz!
+
+#### Olaf Scholz Rede
+
+Diese Audioaufnahme des Kanzlers: Eine echte Rede, gehalten vor dem Parlament der EU – oder eher ein Fake? Entscheiden Sie selbst, nachdem Sie sich das Audio in aller Ruhe angehört haben...
 
 <Quiz>
-<QuizImage src="berthold-schneider-credit-jens-grossmann.jpg" alt="Der Wuppertaler Opernintendant Berthold Schneider, fotografiert von Jens Grossmann" />
-<Question>**Hier könnte ihre Frage stehen?**</Question>
-<Answer>Foobar</Answer>
-<Answer correct>42</Answer>
-<Answer>Richtige Antwort</Answer>
-<Answer>Hier klicken!</Answer>
+<QuizAudio src="Scholz3.mp3" />
+<Question>**Ist die Aufnahme echt oder fake?**</Question>
+<Answer correct>Echt</Answer>
+<Answer>Fake</Answer>
 <Result>
-Natürlich ist **42** die richtige Antwort. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Die Rede hat Olaf Scholz am 09.05.2023 vor dem EU-Parlament in Straßburg gehalten.
 </Result>
 </Quiz>
 
+#### Olaf Scholz liest den Kleinen Prinzen
+
+Olaf Scholz hat im Wahlkampf auch Schulen besucht – und teilweise vorgelesen. In dieser Aufnahme liest der Kanzler eine Passage aus dem „Kleinen Prinzen“ von Antoine de Saint-Exupéry. Eine echte Aufnahme – oder etwa ein Deep Fake?
+
 <Quiz>
-<Question>**Hier könnte ihre Frage stehen?**</Question>
-<Answer>Hier klicken!</Answer>
-<Answer>Foobar</Answer>
-<Answer>Richtige Antwort</Answer>
-<Answer correct>42</Answer>
+<QuizAudio src="Scholz_kleiner_prinz.mp3" />
+<Question>**Ist die Aufnahme echt oder fake?**</Question>
+<Answer>Echt</Answer>
+<Answer correct>Fake</Answer>
 <Result>
-Natürlich ist **42** die richtige Antwort.
+Diese Aufnahme wurde mit Hilfe eines KI-Werkzeugs erzeugt, in diesem Fall Elevenlabs. Es reichen einige Minuten Audiomaterial in guter Qualität – von Politikern und Menschen in der Öffentlichkeit immer leicht zu besorgen –, schon lässt sich die Stimme „klonen“. Kleine Feinheiten könnten noch nachjustiert werden. In Englischer Sprache klingen die Ergebnisse bereits viel besser und sind von der Realität praktisch nicht mehr zu unterscheiden.
 </Result>
 </Quiz>
 
+
+#### Stauschau, mal anders
+
+Die Stauschau: Im Radio ein Klassiker. Hat Olaf Scholz diese Stauschau bei seinem Besuch im WDR2-Studio zuletzt aus Spaß selbst gesprochen, um die Hörer zu unterhalten?
+
 <Quiz>
-<Question>**Hier könnte ihre Frage stehen?**</Question>
-<Answer>Richtige Antwort</Answer>
-<Answer>Hier klicken!</Answer>
-<Answer correct>42</Answer>
-<Answer>Foobar</Answer>
+<QuizAudio src="Scholz_Stauschau.mp3" />
+<Question>**Ist die Aufnahme echt oder fake?**</Question>
+<Answer>Echt</Answer>
+<Answer correct>Fake</Answer>
 <Result>
-Natürlich ist **42** die richtige Antwort.
+Auch diese Aufnahme ist ein Fake. Sie zeigt aber: Es ist durchaus möglich, die Stimme von so ziemlich jedem nachzuahmen – und mit Hilfe von KI alles sagen zu lassen. Durch die Fortschritte bei der Entwicklung der KI-Systeme wird die Audioqualität immer besser. Schon bald ist kein Unterschied mehr zu echten Stimmen zu hören.
 </Result>
 </Quiz>
 
-<QuizScore
-images={{
-    0: "berthold-schneider-credit-jens-grossmann.jpg",
-    2: "richard-wagner-und-freunde_twitter.jpg",
-}}
-texts={{
-    0: "Schade, das war wohl nix.",
-    2: "Gute Arbeit",
-}}
-/>
+#### Donald Trump liebt Pizza
 
-## Tabs Beispiel:
+Einige Menschen haben unverwechselbare Stimmen – Donald Trump gehört ohne jede Frage dazu. So wie er spricht, so spricht kein anderer. Hier nun ein Tondokument in amerikanischer Sprache. Er sagt:
 
-<TabbedView tabs={[
-    {
-        url: "//datawrapper.dwcdn.net/vX99N/57/",
-        title: "Infektionen",
-        frameTitle: "Bestätigte Infektionen mit Corona: Karte",
-        ariaLabel: "Karte",
-    },
-    {
-        url: "//datawrapper.dwcdn.net/x7wUg/73/",
-        title: "Je 100.000",
-        frameTitle: "Bestätigte Infektionen mit Corona je 100.000 Einwohner: Karte",
-        ariaLabel: "Karte",
-    },
-    {
-        url: "//datawrapper.dwcdn.net/j8Y35/2/",
-        title: "Tabelle",
-        frameTitle: "Infektionen mit Corona: Aktuelle Zahlen aus NRW",
-        ariaLabel: "Tabelle",
-    },
-]} />
+„Hey people of Germany. You know I love you. And I know, you love me, too. So much you love me. And I love your pizza... So, that is why I decided to run for president in Germany. Cool or cool?“
 
-<Link title="Dies ist ein Beispiel für einen einzelnen Link" href="https://example.com/" />
+Aber hat er das wirklich gesagt?
 
-<LinkList links={[
-    {
-        title: "Dies ist ein Beispiel für eine Link-Liste",
-        href: "https://example.com/",
-    },
-    {
-        title: "Dies ist noch ein Beispiel für eine Link-Liste",
-        href: "https://example.com/",
-    },
-]} />
+<Quiz>
+<QuizAudio src="Trump_Germany2.wav" />
+<Question>**Ist die Aufnahme echt oder fake?**</Question>
+<Answer>Echt</Answer>
+<Answer correct>Fake</Answer>
+<Result>
+Nein, hat er natürlich nicht. Es gibt Dutzende von Apps, die prominente Stimmen nachahmen – teilweise sogar in Echtzeit. Das bedeutet: Man kann ins Mikrofon sprechen – und die eigene Stimme wird augenblicklich so verstellt, dass sie wie der oder die Prominente klingt.  Andere Onlinedienste wie FakeYou.com erlauben, eine Stimme auszuwählen – und danach wird mit der Stimme alles gesagt, was man möchte. Wie in diesem Fall. Wer nicht genau hinhört, kann leicht darauf hereinfallen.
+</Result>
+</Quiz>
 
-## Beispiel WSS Line Chart:
+#### Tagesschau: Täglich frisch von Ihrem Avatar...
 
-<YDILine name="test_line"/>
+Die Tagesschau informiert täglich Millionen Menschen verlässlich mit aktuellen Nachrichten, Berichten und Reportagen aus aller Welt. Das wird auch in Zukunft tun. Doch was, wenn KI zum Einsatz kommt – oder käme?
 
-## Beispiel WSS Bar Chart:
+<Quiz>
+<QuizVideo src="Tagesschau_Avatar.mp4" />
+<Question>**Ist das Video echt oder fake?**</Question>
+<Answer correct>Echt</Answer>
+<Answer>Fake</Answer>
+<Result>
+Diese Ausgabe der „Tagesschau in 100 Sekunden“ ist ein Original, moderiert von Carl-Georg Salzwedel. Sie wird vor allem für Social Media und online produziert – und hier auch ausgespielt. Vielleicht könnten Sie denken, die Ausgabe sei Fake, weil Sie den Moderator nicht (gut) kennen. Doch hier ist alles „handgemacht“: Echte Menschen vor der Kamera, echte Stimme, echte Beiträge.
+</Result>
+</Quiz>
 
-<YDIBar name="test"/>
+Aber was, wenn man den Präsentator künstlich erzeugen würde? Das könnte dann zum Beispiel so aussehen...
 
-## Beispiel 2 WSS Bar Chart:
+<Quiz>
+<QuizVideo src="TS-Fake.mp4" />
+<Question>**Ist das Video echt oder fake?**</Question>
+<Answer>Echt</Answer>
+<Answer correct>Fake</Answer>
+<Result>
+Hier ist der Präsentator unübersehbar ein Avatar, der künstlich erzeugt wurde. Mit einem Text, der von einem Menschen gesprochen wurde. Der Avater bewegt sich – trotz seiner comichaften Erscheinung – einigermaßen natürlich und vor allem spricht er lippensynchron. So etwas ist heute kein Problem mehr. Hier hat die KI-Software „Synthesia“ ausgeholfen: Stimme echt, Avatar künstlich – und der Background mit den Infotafeln ebenfalls.
+</Result>
+</Quiz>
 
-<YDIBar name="test01"/>
+Für alle, die sich beklagen wollen, dass wir bislang nur Männer präsentiert haben: Hier nun einmal „Tagesschau“ mit Evelyn Hörster aus Dortmund. Man hört die Herkunft noch ein bisschen raus. Wie gefällt Ihnen diese Präsentatorin der Tagesschau?
 
-## Beispiel 3 WSS Bar Chart:
+<Quiz>
+<QuizVideo src="TS female.mp4" />
+<Question>**Ist das Video echt oder fake?**</Question>
+<Answer>Echt</Answer>
+<Answer correct>Fake</Answer>
+<Result>
+Auch das: Fake. Sowohl die Stimme ist künstlich mit KI erzeugt, als auch der weibliche Avatar. Das alles hat Synthesia erstellt. Der Hintergrund mit den Berichten wurde in der Schnitt-Software zusammengesetzt.
+</Result>
+</Quiz>
 
-<YDIBar name="test02"/>
+Das herzustellen, hat nicht mal 15 Minuten gedauert. Es ist also wirklich wichtig, auf Details zu achten. Noch sind die Avatare etwas unscharf. Doch einige KI-Modelle können die Präsentatoren bereits in 4K und gestochen scharf erzeugen. Dasselbe gilt für die Sprache: In Englisch ist der Output der KI kaum noch zu erkennen. Die Fortschritte, die hier gemacht werden, sind enorm.
 
-## Beispiel regulärer Bar Chart:
+Solche Situationen sind die Klassiker für Fake-Videos: Man nehme einen Politiker – in diesem Fall eine Politikerin – und lege einen beliebigen Ton darunter. Versprecher. Falsche Aussagen. Blamagen. So etwas geht dann viral... Wie auch dieser Ausschnitt einer Debatte, die auf Youtube häufig geteilt wurde. Echt oder Fake?
 
-<SemioticBarChart/>
+<Quiz>
+<QuizVideo src="Baerbock.mp4" poster="baerbock_thumb.jpg" />
+<Question>**Ist das Video echt oder fake?**</Question>
+<Answer correct>Echt</Answer>
+<Answer>Fake</Answer>
+<Result>
+Dieses Video ist echt. Es handelt sich um einen echten Versprecher im Bundestag: Bild und Ton sind nicht manipuliert. Aber selbst wenn, wäre es schwierig nachzuweisen, da die Lippenbewegungen nicht gut zu erkennen sind.
+</Result>
+</Quiz>
 
-## Beispiel Video-Player:
+Wer gerne ein Deepfake-Video mit Annalena Baerbock sehen möchte: Die Kollegen von „ZDF Sketch History“ haben einen Sketch gedreht, in der die Außenministerin und damalige Grünen-Chefin aufs Korn genommen wird: Per Deepfake ist ihr Gesicht in eine Szene montiert, die im Mittelalter spielt (1362). Da es sich hier um eine professionelle Produktion handelt, ist der Fake nur schwer zu erkennen.
 
-<WdrPlayer videoId="2159001" videoPoster="https://i.imgur.com/hZIGM2L.jpg" />
+<iframe class="embed-yt-16-9" src="https://www.youtube.com/embed/36_wXnCus7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-mehr toller text
-
-### Zauberflöte vor Hänsel und Gretel
-
-<figure role="group">
-    <figcaption>Wurde das Stück im Haus auch 'für Kinder' gespielt, haben wir es hier mit zusammengefasst.</figcaption>
-    <DataWrapper
-        alt="76 mal wurde die Zauberflöte 2018/2019 in NRW aufgeführt, gefolgt von Hänsel und Gretel mit 34 Aufführungen."
-        title="Zauberflöte vor Hänsel und Gretel"
-        src="//datawrapper.dwcdn.net/azwpu/7/"
-    />
-</figure>
-
-In der vergangenen Spielzeit stemmten die 13 kommunalen Bühnen über hundert Inszenierungen – mit insgesamt mehr als tausend Aufführungen. Drei Opern pro Tag. NRW ist ein großartiges Bundesland für Oper.
-
-## Viel Angebot, aber wenig Vielfalt
-
-Doch so vielfältig, wie es sich auf den ersten Blick darstellt, ist das Angebot keinesfalls. Denn meistens begegnet das Publikum alten Bekannten:
-
-### Verdi, Mozart, Wagner sind Spitzenreiter
-
-<figure role="group">
-    <figcaption> Zu sehen ist das Geburtsjahr im Verhältnis zur Zahl der Aufführungen. Gelbe Quadrate stehen für lebende KomponistInnen, blaue Punkte für verstorbene. Klicken Sie darauf, um Name, Geburtsjahr und Zahl der Aufführungen zu sehen.</figcaption>
-    <DataWrapper
-        alt="Während lebende KomponistInnen oft nur 1-8 mal aufgeführt werden, werden Komponisten, die über 150 Jahre alt sind besonders häufig aufgeführt. Spitzenreiter sind Guiseppe Verdi und Wolfgang Amadeus Mozart."
-        title="Ältere KomponistInnen werden häufiger aufgeführt"
-        src="//datawrapper.dwcdn.net/48hJE/12/"
-    />
-
-</figure>
-
-Bei Leonard Bernstein und Jacques Offenbach sieht man, dass die großen Jubiläumsjahre sehr erfolgreich darin waren, diese Komponisten wieder auf die Spielpläne zu setzen. Trotzdem sind die großen Namen meistens Verdi, Mozart, Wagner und Puccini - ihre Opern machen etwa ein Drittel der Aufführungen aus. Giuseppe Verdi führt diese Liste mit Abstand an – seine Opern sind gleich 13 mal inszeniert und insgesamt 143 mal aufgeführt worden.
-
-## Im Schnitt sind die Komponisten 180 Jahre alt
-
-Die beliebten Melodien von Mozart und Verdi lassen anscheinend kaum Konkurrenz zu. Denn Stücke von lebenden Komponisten und Komponistinnen finden sich selten auf den Spielplänen. Nur jeder dritte gespielte Komponist lebt noch, im Schnitt sind die Komponisten 180 Jahre alt. Ist die Opernwelt im 19. Jahrhundert stehen geblieben?
-
-### Jeder dritte Komponist lebt - wird aber kaum aufgeführt
-
-<figure role="group">
-    <figcaption> Bei Klick auf 'KomponistInnen' ist zu sehen, wie das Verhältnis von verstorbenen zu lebenden KomponistInnen ist.</ figcaption>
-    <DataWrapper
-        alt="Fast jede dritte KomponistIn lebt, aber nur 9 % der Aufführung stammen von ihnen."
-        title="Nur 9 % der Aufführungen stammen von lebenden KomponistInnen."
-        src="//datawrapper.dwcdn.net/6D2bM/4/"
-    />
-
-</figure>
-
-Für den Komponisten Moritz Eggert ist das ein Armutzeugnis. Er hatte den deutschen Opernhäusern schon im vergangenen Jahr mangelnde Innovationskraft vorgeworfen:
-
-<Quote author={
-<a href="https://blogs.nmz.de/badblog/2018/04/10/die-ernuechternde-opernstatistik-der-spielzeit-2017-2018/" target="_blank" rel="noopener noreferrer">Moritz Eggert</a>
-}>Überlebenschance der Gattung Oper, wenn sich nicht grundlegend etwas ändert: 0%</Quote>
-
-Philipp Jüttner vom Musiktheater im Revier in Gelsenkirchen wehrt sich gegen den Vorwurf: "Auftragswerke sind aufwändig und teuer". Jedes Jahr vergäben die Opern Aufträge an lebende Komponisten. Jüttner: "Wir schauen, wo wir Lücken im Repertoire schließen können." Einen Bedarf sieht er vor allem bei Werken für ein junges Publikum - also bei Kinderopern. So tourte das Musiktheater im Revier mit "Don Quixote" von Komponistin Katharina Schmauder (Jahrgang 1994) durch die Grundschulen im Umland. Für die große Bühne war das Stück allerdings nicht gedacht.
-
-<Quote author="Philipp Jüttner, Musiktheater im Revier Gelsenkirchen">Zeitgenössische Werke müssen sich beweisen.</Quote>
-
-Neue Stoffe hätten es häufig schwer, sich gegen populäre Melodien durchzusetzen: "Ein guter Test dafür, was künstlerisch standhält." Deswegen wundere es Philipp Jüttner nicht, dass viele neu komponierte Opern nicht mehr Aufführungen als die Premiere erleben: "Zeitgenössische Werke müssen sich gegen bekannte Opern beweisen."
-
-### Dortmund, Wuppertal und Düsseldorf/Duisburg sind die lebendigsten Häuser
-
-<figure role="group">
-    <figcaption> Gezeigt wird der Anteil lebender bzw. verstorbener KomponistInnen in der Spielzeit 2018/2019.</ figcaption>
-    <DataWrapper
-        alt="Während in Dortmund, Wuppertal und Düsseldorf/Duisburg mehr als 20 % lebende KomponistInnen gespielt wurden, waren es in Aachen, Hagen, Herford und Minden ausschließlich verstorbene Komponisten."
-        title="Dortmund, Wuppertal und Düsseldorf/Duisburg sind die lebendigsten Häuser"
-        src="//datawrapper.dwcdn.net/Nidhc/4/"
-    />
-
-</figure>
-
-### 13 lebende Komponisten auf der Bühne - darunter nur eine einzige Frau
-
-Schaut man sich die Stücke an, die die Häuser auf ihren eigenen Bühnen aufführen, so sind die Komponisten allesamt Männer. Einzige Ausnahme ist die spanische Komponistin Nuria Núñez Hierro (Jahrgang 1980).
-
-<figure role="group">
-    <figcaption>Hierros Kinderoper “Kleines Stück Himmel” wurde in Wuppertal acht mal aufgeführt.</figcaption>
-    <DataWrapper
-        alt="In der Spielzeit 2018/2019 war unter 66 KomponistInnen nur eine Frau."
-        title="Nuria Nunez Hierro ist die einzige Frau"
-        src="//datawrapper.dwcdn.net/T56o1/2/"
-    />
-
-</figure>
-Können Frauen einfach keine Opern schreiben? Nein, daran liegt es nicht.
-
-"Es gibt gewachsene Strukturen, die von Männern dominiert sind", [erklärt der Intendant der Oper Wuppertal, Berthold Schneider, den hohen Männeranteil.](https://www1.wdr.de/mediathek/audio/wdr3/wdr3-kultur-am-mittag/audio-was-wird-an-den-opern-in-nrw-gezeigt-100.html)
-
-<Quote author="Berthold Schneider, Intendant der Oper Wuppertal">Da kann man über eine Frauenquote nachdenken.</Quote>
-
-Gerade weil die Anzahl der Kompositionsaufträge, die die Häuser vergeben, recht überschaubar ist, müsse man sicherstellen, dass Frauen angemessen berücksichtigt werden. "Das könnte man mal festlegen", sagt Schneider.
-
-### Europa im Zentrum
-
-Auch die Herkunft der gespielten Komponisten beschränkt sich vor allem auf Deutschland und Mitteleuropa.
-
-<figure role="group">
-    <figcaption>Die meisten KomponistInnen sind in Europa geboren, nur wenige kommen aus dem EU-Ausland.</figcaption>
-    <DataWrapper
-        alt="Nur wenige KomponistInnen stammen nicht aus Europa."
-        title="Europa im Zentrum"
-        src="//datawrapper.dwcdn.net/OttGi/1/"
-    />
-    <DataWrapper
-        alt="Einzelne KomponistInnen kommen aus der ganzen Welt."
-        title="Nuria Nunez Hierro ist die einzige Frau, deren Oper auf den Bühnen in NRW gespielt wird"
-        src="//datawrapper.dwcdn.net/qWU0T/5/"
-    />
-
-</figure>
-
-Die Opern begründen ihre konservativen Spielpläne mit dem allgemeinen Druck, die Auslastungszahlen hoch zu halten. Für Intendant Berthold Schneider eine gute Situation: "Ich glaube wir sind da in einer ganz tollen Situation im Moment", sagt er, "weil auch der innere Leidensdruck ziemlich groß ist und das ist immer eine gute Voraussetzung."
-
-<figure role="group">
-<img src="berthold-schneider-credit-jens-grossmann.jpg" alt="Der Wuppertaler Opernintendant Berthold Schneider, fotografiert von Jens Grossmann" />
-<figcaption style="text-align: end;">Berthold Schneider</figcaption>
-</figure>
-
-Auf der einen Seite wolle Schneider mit Oper kulturelles Erbe abbilden, auf der anderen Seite Innovationsdruck machen: "Wir brauchen unbedingt viel, viel mehr Dynamik."
-
-<Quote author="Berthold Schneider, Intendant Oper Wuppertal">Die Oper ist stark genug, dass sie sich immer wieder verändern wird.</Quote>
 
 <Sharing twitter facebook mail whatsapp telegram reddit xing linkedin />
