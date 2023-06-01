@@ -171,12 +171,12 @@ Dieses Video ist echt. Es handelt sich um einen echten Versprecher im Bundestag:
 images={{
     0: "result_bad.png",
     5: "result_ok.png",
-    7: "result_good.png",
+    8: "result_good.png",
 }}
 texts={{
     0: "Es ist wirklich schwierig. Aber Sie haben sich noch von zu vielen Deepfakes täuschen lassen. Einfach ein bisschen üben, kritischer rangehen – und auf das Bauchgefühl hören!",
     5: "Das war schon sehr gut: Die meisten Fakes erkannt – aber auf einige dann doch noch hereingefallen. Einfach noch mehr üben, kritischer rangehen – und auf das Bauchgefühl hören!",
-    7: "Das ist ein sehr gutes Ergebnis: Die meisten oder alle Deepfakes erkannt. Gratuliere, Sie lassen sich nicht so leicht an der Nase herumführen. Aber jetzt bitte nicht auf den Lorbeeren ausruhen.",
+    8: "Das ist ein sehr gutes Ergebnis: Die meisten oder alle Deepfakes erkannt. Gratuliere, Sie lassen sich nicht so leicht an der Nase herumführen. Aber jetzt bitte nicht auf den Lorbeeren ausruhen.",
 }}
 />
 
