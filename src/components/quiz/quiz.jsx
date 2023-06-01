@@ -13,11 +13,14 @@ import styles from "./quiz.module.css";
 
 const QuizContext = React.createContext({});
 
+const quizRegistry = new Set();
+
 export const Quiz = ({ children }) => {
   const [question, setQuestion] = useState(null);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [answered, setAnswered] = useState(false);
   const [id] = useState(uuid());
+  const [num, setNum] = useState(null);
   const globalQuizContext = useContext(GlobalQuizContext);
 
   // Register the quiz in the global page context
@@ -25,6 +28,8 @@ export const Quiz = ({ children }) => {
     // Prevent multiple registration
     if (globalQuizContext.score[id] === undefined) {
       globalQuizContext.setScore((score) => ({ ...score, [id]: null }));
+      quizRegistry.add(id);
+      setNum(quizRegistry.size);
     }
   }, [id, globalQuizContext]);
 
@@ -37,6 +42,7 @@ export const Quiz = ({ children }) => {
       answered,
       setAnswered,
       id,
+      num,
     }),
     [
       question,
@@ -46,6 +52,7 @@ export const Quiz = ({ children }) => {
       answered,
       setAnswered,
       id,
+      num,
     ],
   );
 
@@ -117,7 +124,7 @@ export const Answer = ({ correct, children }) => {
 
     sendEventClickAction(pianoPageConfig, {
       clickText: children,
-      clickTarget: quizContext.question,
+      clickTarget: `${quizContext.num} ${quizContext.question}`,
     });
   }, [id, quizContext, globalQuizContext, correct, pianoPageConfig, children]);
 
