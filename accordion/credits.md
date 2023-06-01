@@ -1,6 +1,7 @@
 ### Bildrechte:
 
--
+- **Alle Bilder (Teaser, Bewertungen):** WDR/Jörg Schieb/Midjourney
+- **Alle Videos**: WDR/Jörg Schieb/Synthesia
 
 ### Credits
 
