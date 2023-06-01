@@ -6,7 +6,7 @@
   "author": "Christine <christine.gotth@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "build-gatsby",
+    "build": "yarn build-gatsby",
     "build-gatsby": "gatsby build --prefix-paths",
     "build-prod": "yarn videos && GATSBY_WEBTREKK_ENV=production GATSBY_ATI_ENV=production yarn build-gatsby",
     "start": "gatsby develop -H 0.0.0.0",
