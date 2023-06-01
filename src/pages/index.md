@@ -153,10 +153,6 @@ Dieses Video ist echt. Es handelt sich um einen echten Versprecher im Bundestag:
 </Result>
 </Quiz>
 
-Wer gerne ein Deepfake-Video mit Annalena Baerbock sehen möchte: Die Kollegen von „ZDF Sketch History“ haben einen Sketch gedreht, in der die Außenministerin und damalige Grünen-Chefin aufs Korn genommen wird: Per Deepfake ist ihr Gesicht in eine Szene montiert, die im Mittelalter spielt (1362). Da es sich hier um eine professionelle Produktion handelt, ist der Fake nur schwer zu erkennen.
-
-<iframe class="embed-yt-16-9" src="https://www.youtube.com/embed/36_wXnCus7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 <QuizScore
 images={{
     0: "result_bad.png",
