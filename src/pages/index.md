@@ -1,5 +1,5 @@
 ---
-title: "Quiz: Wie gut erkennen Sie Deep Fakes?"
+title: "Quiz: Wie gut erkennen Sie Deepfakes?"
 description: Mit diesem Quiz können Sie überprüfen, ob und wie gut Sie mit KI erzeugte Audios und Videos erkennen.
 author: Jörg Schieb
 pub_date: "2023-06-02"
@@ -22,7 +22,7 @@ import WdrPlayer from '../components/video/video.jsx'
 import { Link, LinkList } from '../components/link/link.jsx'
 import { Quiz, Image as QuizImage, Video as QuizVideo, Audio as QuizAudio, Question, Answer, Result, Score as QuizScore } from '../components/quiz/quiz.jsx'
 
-# Wie gut erkennen Sie Deep Fakes?
+# Wie gut erkennen Sie Deepfakes?
 
 ## Mit diesem Quiz können Sie überprüfen, ob und wie gut Sie mit KI erzeugte Audios und Videos erkennen.
 
@@ -32,11 +32,11 @@ Die nächste Stufe sind Audios und Videos: Auch die lassen sich heute mit Hilfe 
 
 ### Auch Fake von Stimmen und Videos möglich
 
-Was vor einigen Monaten noch nur im Labor möglich war, steht heute jedem offen: KI-Systeme, die mit synthetischer Stimme sprechen, die völlig echt klingen. Aber auch KI-Systeme, die praktisch jede Stimme nahezu perfekt nachahmen können. Es reichen einige wenige Minuten Audiomaterial – etwa eine Rede! –, schon lässt sich mit KI ein Audioschnipsel bauen, in dem alles gesagt werden kann. Ein Audio Deep Fake.
+Was vor einigen Monaten noch nur im Labor möglich war, steht heute jedem offen: KI-Systeme, die mit synthetischer Stimme sprechen, die völlig echt klingen. Aber auch KI-Systeme, die praktisch jede Stimme nahezu perfekt nachahmen können. Es reichen einige wenige Minuten Audiomaterial – etwa eine Rede! –, schon lässt sich mit KI ein Audioschnipsel bauen, in dem alles gesagt werden kann. Ein Audio Deepfake.
 
 Mit Videos ist es etwas aufwändiger und die Ergebnisse können noch nicht ganz so überzeugen – aber auch hier werden enorme Fortschritte gemacht.
 
-Wir haben in diesem Quiz Aufnahmen im Angebot: Audios und Videos. Echte und unechte. Die Aufgabe ist es zu entscheiden: Sie die Aufnahmen nun echt oder unecht? Auf diese Weise lässt sich gut erkennen und lernen, was heute schon möglich ist – und worauf man achten muss, um Deep Fakes zu enttarnen.
+Wir haben in diesem Quiz Aufnahmen im Angebot: Audios und Videos. Echte und unechte. Die Aufgabe ist es zu entscheiden: Sie die Aufnahmen nun echt oder unecht? Auf diese Weise lässt sich gut erkennen und lernen, was heute schon möglich ist – und worauf man achten muss, um Deepfakes zu enttarnen.
 
 Viel Spaß beim Quiz!
 
@@ -56,7 +56,7 @@ Die Rede hat Olaf Scholz am 09.05.2023 vor dem EU-Parlament in Straßburg gehalt
 
 #### Olaf Scholz liest den Kleinen Prinzen
 
-Olaf Scholz hat im Wahlkampf auch Schulen besucht – und teilweise vorgelesen. In dieser Aufnahme liest der Kanzler eine Passage aus dem „Kleinen Prinzen“ von Antoine de Saint-Exupéry. Eine echte Aufnahme – oder etwa ein Deep Fake?
+Olaf Scholz hat im Wahlkampf auch Schulen besucht – und teilweise vorgelesen. In dieser Aufnahme liest der Kanzler eine Passage aus dem „Kleinen Prinzen“ von Antoine de Saint-Exupéry. Eine echte Aufnahme – oder etwa ein Deepfake?
 
 <Quiz>
 <QuizAudio src="Scholz_kleiner_prinz.mp3" />
