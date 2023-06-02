@@ -1,5 +1,5 @@
 ---
-title: "Quiz: Wie gut erkennen Sie Deepfakes?"
+title: "Deepfake-Quiz: Erkennen Sie alle KI-Videos und -Audios?"
 description: Mit diesem Quiz können Sie überprüfen, ob und wie gut Sie mit KI erzeugte Audios und Videos erkennen.
 author: Jörg Schieb
 pub_date: "2023-06-02"
@@ -22,7 +22,7 @@ import WdrPlayer from '../components/video/video.jsx'
 import { Link, LinkList } from '../components/link/link.jsx'
 import { Quiz, Image as QuizImage, Video as QuizVideo, Audio as QuizAudio, Question, Answer, Result, Score as QuizScore } from '../components/quiz/quiz.jsx'
 
-# Wie gut erkennen Sie Deepfakes?
+# Deepfake-Quiz: Erkennen Sie alle KI-Videos und -Audios?
 
 ## Mit diesem Quiz können Sie überprüfen, ob und wie gut Sie mit KI erzeugte Audios und Videos erkennen.
 
@@ -179,5 +179,14 @@ texts={{
     8: "Das ist ein sehr gutes Ergebnis: Die meisten oder alle Deepfakes erkannt. Gratuliere, Sie lassen sich nicht so leicht an der Nase herumführen. Aber jetzt bitte nicht auf den Lorbeeren ausruhen.",
 }}
 />
+
+#### Mehr zum Thema beim WDR
+
+<LinkList links={[
+    { href: "https://www1.wdr.de/nachrichten/deepfakes-100.html", title: "Deepfakes: Wir können unseren Augen und Ohren nicht mehr trauen" },
+    { href: "https://data.wdr.de/ddj/deepfake-quiz-erkennen-sie-alle-ki-bilder/", title: "Deepfake-Quiz: Erkennen Sie alle KI-Bilder?" },
+	{ href: "https://data.wdr.de/ddj/ki-jobs-arbeit-zukunft/", title: "So stark ist Ihr Job durch KI bedroht" },
+    { href: "https://reportage.wdr.de/kollege-roboter-die-loesung-fuer-den-fachkraeftemangel", title: "Kollege Roboter: Die Lösung für den Fachkräftemangel?" },
+]} />
 
 <Sharing twitter facebook mail whatsapp telegram reddit xing linkedin />
