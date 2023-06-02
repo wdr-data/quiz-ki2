@@ -22,7 +22,7 @@ import WdrPlayer from '../components/video/video.jsx'
 import { Link, LinkList } from '../components/link/link.jsx'
 import { Quiz, Image as QuizImage, Video as QuizVideo, Audio as QuizAudio, Question, Answer, Result, Score as QuizScore } from '../components/quiz/quiz.jsx'
 
-# Deepfake-Quiz: Erkennen Sie alle KI-Videos und -Audios?
+# Deepfake-Quiz: Erkennen Sie alle KI-Videos und <nobr>-Audios</nobr>?
 
 ## Mit diesem Quiz können Sie überprüfen, ob und wie gut Sie mit KI erzeugte Audios und Videos erkennen.
 
