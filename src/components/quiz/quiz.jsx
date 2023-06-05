@@ -153,17 +153,12 @@ export const Result = ({ children }) => {
   const confirmed = quizContext.answered;
 
   return (
-    <div
-      className={classNames(
-        styles.result,
-        confirmed && styles.shown,
-      )}
-    >
-      <div
-        className={styles.text}
-        aria-hidden={confirmed ? "false" : "true"}
-      >
-        <ReactMarkdown source={children} linkTarget="_blank" />
+    <div className={classNames(styles.result, confirmed && styles.shown)}>
+      <div className={styles.text} aria-hidden={confirmed ? "false" : "true"}>
+        <ReactMarkdown
+          source={children.replace("\\n", "\n\n")}
+          linkTarget="_blank"
+        />
       </div>
     </div>
   );
