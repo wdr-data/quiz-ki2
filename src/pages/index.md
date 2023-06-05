@@ -50,7 +50,8 @@ Diese Audioaufnahme des Kanzlers: Eine echte Rede, gehalten vor dem Parlament de
 <Answer correct>Echt</Answer>
 <Answer>Fake</Answer>
 <Result>
-Die Rede hat Olaf Scholz am 09.05.2023 vor dem EU-Parlament in Straßburg gehalten.
+Die Rede hat Olaf Scholz am 7.9.2022 vor dem Deutschen Bundestag gehalten.\n
+Quelle: [Deutscher Bundestag](https://dserver.bundestag.de/btp/20/20050.pdf)
 </Result>
 </Quiz>
 
@@ -188,5 +189,7 @@ texts={{
 	{ href: "https://data.wdr.de/ddj/ki-jobs-arbeit-zukunft/", title: "So stark ist Ihr Job durch KI bedroht" },
     { href: "https://reportage.wdr.de/kollege-roboter-die-loesung-fuer-den-fachkraeftemangel", title: "Kollege Roboter: Die Lösung für den Fachkräftemangel?" },
 ]} />
+
+Hinweis der Redaktion: In einer früheren Version stand, dass Olaf Scholz die Rede am 9.5.2023 vor dem EU-Parlament in Straßburg gehalten hatte. Das ist so nicht richtig, wir bitten den Fehler zu entschuldigen.
 
 <Sharing twitter facebook mail whatsapp telegram reddit xing linkedin />
