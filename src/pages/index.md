@@ -42,7 +42,7 @@ Viel Spaß beim Quiz!
 
 #### Olaf Scholz Rede
 
-Diese Audioaufnahme des Kanzlers: Eine echte Rede, gehalten vor dem Parlament der EU – oder eher ein Fake? Entscheiden Sie selbst, nachdem Sie sich das Audio in aller Ruhe angehört haben...
+Diese Audioaufnahme des Kanzlers: Eine echte Rede, gehalten vor dem Parlament – oder eher ein Fake? Entscheiden Sie selbst, nachdem Sie sich das Audio in aller Ruhe angehört haben...
 
 <Quiz>
 <QuizAudio src="Scholz3.mp3" />
